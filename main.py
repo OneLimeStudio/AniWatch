@@ -7,8 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 import finder
 
-
-
 service = Service()
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
